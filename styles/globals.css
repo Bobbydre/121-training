@@ -35,7 +35,7 @@ body {
   color: #FFF;
   text-align: center;
   font-size: 5rem;
-  font-family: Jost;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 106.5%;
@@ -101,7 +101,7 @@ body {
 
 
 @media (max-width: 768px) {
-  .hero-title {
+  .title {
     color: #FFF;
     text-align: center;
     font-size: 4rem;
