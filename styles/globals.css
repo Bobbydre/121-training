@@ -97,6 +97,12 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;  
 }
+.gradientText {
+  background: linear-gradient(18deg, #ffffff, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 

@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="hero-section">
                 <div className="hero-background"></div>
                 <div className="hero-content">
-                    <Text textType='title'>
+                    <Text textType='title' className='gradientText'>
                         Your crypto. <br />Family style.
                     </Text>
                     <Text textType='subtitle'>
