@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Jost } from 'next/font/google'
 import Hero from '@/component/Hero/Hero'
 
-const inter = Inter({ subsets: ['latin'] })
+const jost = Jost({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-center overflow-hidden`}
+      className={`font-jost flex min-h-screen flex-col items-center justify-center overflow-hidden`}
     >
     <Hero />
     </main>

@@ -1,6 +1,7 @@
 export const TEXT_TYPE_CLASSES = {
   title: "title",
-  subtitle: 'subtitle'
+  subtitle: 'subtitle',
+  normal: 'normal'
   };
   
   const Text = ({ textType, children, className }) => {
