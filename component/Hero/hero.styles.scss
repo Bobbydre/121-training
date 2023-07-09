@@ -65,7 +65,9 @@
 @media (max-width: 768px) {
   .email-input {
     min-width: 5rem;
-    padding: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #fff;
     width: 58vw;
   }
